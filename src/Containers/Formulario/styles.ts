@@ -15,6 +15,11 @@ export const Campo = styled.input`
   border-radius: 5px;
   font-size: 12px;
   color: #1e1e1e;
+
+  &:focus {
+    outline: 2.5px solid ${variaveis.botao};
+    border: none;
+  }
 `
 export const Botao = styled.button`
   margin: 16px auto 0;
